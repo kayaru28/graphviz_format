@@ -1,0 +1,14 @@
+digraph {
+  newrank=true;
+  subgraph cluster0 {
+     label = "p";
+     a  -> b
+  }
+  subgraph cluster1 {
+     A -> B
+  }
+  a -> A
+  b -> B
+  {rank=same; a; A;}
+} 
+
