@@ -1,0 +1,36 @@
+digraph {
+ newrank=true
+ layout=neato
+ node[
+  shape=box
+ ]
+ subgraph clusterA {
+  label="SwitchA"
+  node[
+   width=0.5
+   height=0.5
+  ]
+  A_LB[label="",pos="10,10!"]
+  A_LT[label="",pos="10,15!"]
+  A_RB[label="",pos="15,10!"]
+  A_RT[label="",pos="15,15!"]
+  A_1_1[label=".1",pos="15,11!"]
+ }
+ subgraph clusterB {
+  label="SwitchB"
+  node[
+   width=0.5
+   height=0.5
+  ]
+  B_LB[label="",pos="20,10!"]
+  B_LT[label="",pos="20,15!"]
+  B_RB[label="",pos="25,10!"]
+  B_RT[label="",pos="25,15!"]
+  B_1_1[label=".2",pos="20,11!"] 
+ }
+
+ VLAN_A[label="172.16.0.0/24",pos="17.5,11!",height=1.0]
+ B_1_1 -> A_1_1 
+}
+
+
