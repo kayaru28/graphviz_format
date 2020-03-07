@@ -24,6 +24,7 @@ with dot.subgraph(name='clusterA') as clusterA:
     clusterA.node(name="B_LB",label="B",pos="10,15!")
     clusterA.node(name="C_LB",label="C",pos="12,10!")
     clusterA.node(name="D_LB",label="D",pos="12,15!")
+    clusterA.node(name="E_LB",label="D",pos="12!")
 with dot.subgraph(name='clusterA') as clusterB:
     clusterB.attr(label='SwitchB')
     clusterB.node_attr={'width':'0.5','height':'0.5'}
