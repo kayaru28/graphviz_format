@@ -1,6 +1,0 @@
-digraph sample {
-  alpha -> beta;
-  alpha -> gamma;
-  beta -> delta;
-}
-
