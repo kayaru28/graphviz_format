@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import data_prefectures
 import csv
 from graphviz import Digraph
 
