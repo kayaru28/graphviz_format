@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# ERROR PATTERN
-
 from graphviz import Digraph
 
 
