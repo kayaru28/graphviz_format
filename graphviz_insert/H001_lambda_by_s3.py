@@ -42,5 +42,4 @@ dot.edge(N_Lambda_Function,N_S3_nortification,label='add permissions to access')
 dot.edge(N_S3_bucket,N_S3_nortification,label='create bucket notification \nto Lambda Function', labelfloat='false')
 print(dot)
 dot.render(filename)
-#ltail=`C_*`
-#lhead=`C_*`
+

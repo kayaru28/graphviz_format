@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# do not 
-
 from graphviz import Digraph
 
 dot = Digraph(format="png")
